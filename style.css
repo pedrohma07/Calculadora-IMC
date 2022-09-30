@@ -61,6 +61,7 @@ h1{
 }
 
 #resultado{
+    margin-top: 30px;
     width: 100%;
     height: 150px;
     border-top: 1px solid gray;
@@ -69,7 +70,7 @@ h1{
     color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around   ;
     align-items: center;
     text-align: center;
 }
@@ -85,7 +86,7 @@ h1{
 }
 .seta{
     width: 30px;
-    margin-top: 5em;
+    max-height: 30px;  
 }
 
 @media screen and (max-width: 875px){
@@ -113,4 +114,10 @@ h1{
    #ilustracao{
         display: none;
    }
+}
+
+@media screen and (min-width: 450px){
+    .seta{
+        display: none;
+    }
 }
