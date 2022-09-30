@@ -68,6 +68,7 @@ h1{
     background-color: rgb(170, 243, 192);
     color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -81,6 +82,10 @@ h1{
     width: 60%;
     display: flex;
     justify-content: center;
+}
+.seta{
+    width: 30px;
+    margin-top: 5em;
 }
 
 @media screen and (max-width: 875px){
